@@ -1,0 +1,16 @@
+name: A Cyborg on Training Wheels
+author: Devin T. Jackson
+markdown: redcarpet
+highlighter: pygments
+baseurl: 
+description: Learning new functions everyday
+github: http://www.github.com/jackson-
+twitter: http://www.twitter.com/InnovateRegal
+facebook: http://www.facebook.com
+linkedin: http://www.linkedin.com
+email: rnpatel[at]me.com
+location: 42°2'16"N   70°12'47"W
+disqus: diqus-username
+
+##Make sure to edit the above fields, especially for disqus.
+
