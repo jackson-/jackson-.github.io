@@ -17,8 +17,12 @@ body
     background-size: 100% 100%;
 }
 
-#proj_body {
+#post_img {
+  float: left;
+}
 
+#post_p {
+  float: right;
 }
 
 .post_pic {
