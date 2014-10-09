@@ -26,7 +26,7 @@ data = cur.fetchone()
 print "SQLite version: %s" % data
 {% endhighlight %}
 <br />
-On the regular when we do these things we have to commit these statements for them to save in the database but with a statement call with we can skip all of that and it does it for us. The "with" keyword alkso handles error checking for us if the specific table, column, or row doesn't exist. Here's that another example using "with":
+On the regular when we do these things we have to commit and close these statements for them to save in the database but with a statement call with we can skip all of that and it does it for us. The "with" keyword also handles error checking for us if the specific table, column, or row doesn't exist. Here's that another example using "with":
 {% highlight python %}
 with con:
     
