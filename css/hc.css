@@ -533,7 +533,8 @@ time
   background-color:#f9f9f9;
   border-radius: 5px;
   box-shadow:1px 1px 0 1px #e8e8e8;
-  min-height:200px
+  min-height:200px;
+  margin: 30px;
 }
 
 .project-box:hover
