@@ -302,7 +302,14 @@ pre
   font-weight:bolder;
   color:#fff;
   text-align:center;
-  padding-top:20%
+  padding-top:20%;
+}
+
+.showcase-text h1 {
+  color:#3a3a3a;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .wide
