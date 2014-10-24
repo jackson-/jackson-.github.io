@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Programmers love an All Nighter (I don't mean the sexy kind) and you should too!
+comments: true
 ---
 
 ![Image]({{ site.baseurl }}/images/latenight.JPG)
@@ -12,3 +13,4 @@ title: Programmers love an All Nighter (I don't mean the sexy kind) and you shou
 
 <br /> <br /> <br />
 &nbsp;&nbsp;&nbsp;&nbsp;What's the point I'm trying to make here? The little habits you pick up on a daily effect you more than you know. Which is why I'm making a habit of late night/all day coding whenever I can. I'm making the most of every waking moment to give myself The Slight Edge in life. Is this going to get me rich? Is it going to make me successful? To be honest I don't know, but I'm willing to find out. The sad thing is I don't really know many others who are too. If you're experiencing the same thoughts feel free to drop me a line at my email. We can talk about this new function young cyborg: Behavioral Awareness!
+

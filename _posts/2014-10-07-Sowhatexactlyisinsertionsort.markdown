@@ -1,6 +1,7 @@
 ---
 layout: post
 title: So what exactly is insertion sort?
+comments: true
 ---
 
 ![Image]({{ site.baseurl }}/images/insertion-sort.svg)
