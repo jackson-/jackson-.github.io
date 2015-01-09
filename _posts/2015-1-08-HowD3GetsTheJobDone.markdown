@@ -15,40 +15,40 @@ comments: true
 
 {% highlight javascript %}
 var svg = d3.select('body')
-				.append('svg')
-				.attr('w',1000)
-				.attr('h',1000);
-	var data = [13, 100, 28, 40, 30];
-	svg.selectAll("circle")
-				.data(data)
-				.enter()
-				.append("circle")
-				.attr('cx', 50)
-				.attr('cy', 50)
-				.attr('r', 5)
-				.attr("fill", "black" );
+			.append('svg')
+			.attr('w',1000)
+			.attr('h',1000);
+var data = [13, 100, 28, 40, 30];
+svg.selectAll("circle")
+			.data(data)
+			.enter()
+			.append("circle")
+			.attr('cx', 50)
+			.attr('cy', 50)
+			.attr('r', 5)
+			.attr("fill", "black" );
 
 			
-	svg.selectAll("circle")
-				.transition()
-				.attr('cx', function(d){ return d })
-				.attr('cy', 40)
-				.attr('r', 5)
-				.attr("fill", function(d){
-				num = Math.floor( Math.random() * (20 - 10) + 10 );
-				if (num <= 5) {
-					return color = "red";
-			}	else if (num <= 10) {
-					return color = "blue";
-			}	else if (num <= 15) {
-					return color = "green";
-			}	else if (num <= 20) {
-					return color = "purple";
+svg.selectAll("circle")
+			.transition()
+			.attr('cx', function(d){ return d })
+			.attr('cy', 40)
+			.attr('r', 5)
+			.attr("fill", function(d){
+			num = Math.floor( Math.random() * (20 - 10) + 10 );
+			if (num <= 5) {
+				return color = "red";
+		}	else if (num <= 10) {
+				return color = "blue";
+		}	else if (num <= 15) {
+				return color = "green";
+		}	else if (num <= 20) {
+				return color = "purple";
+		}
+			else {
+				return color = 'black';
 			}
-				else {
-					return color = 'black';
-				}
-							} );
+						} );
 
 {% endhighlight %}
 <br /> <br />
